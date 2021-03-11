@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(cadaste_img/background.jpg);
+}
+/*HEADER*/
+.header {
+    width: 950px;
+    margin-left: 582px;
+}
+.header::before {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(22, 76, 177);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.header ul {
+    list-style: none;
+    height: 50px;
+    font-size: 18px;
+}
+.header ul li a {
+    float: left;
+    padding: 0px 20px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(136, 166, 223);
+}
+
+.header a:hover {
+    background-color: cornflowerblue;
+}
+.line a::after {
+    content: "";
+    background: rgb(136, 166, 223);
+    width: 1px;
+    height: 50px;
+    float: right;
+    margin-left: 20px;
+}
+li.account_item :last-child {
+color: white;
+padding: 0px 10px;
+}
+/*CONTENT*/
+.form {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+}
+.form h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #0c368b;
+  color: #fff;
+  padding: 8px 58px;
+  margin-top: 30px;
+  font-size: 16px;
+  min-width: 100px;
+  padding-left: 25px;
+  padding-right: 21px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.button a {
+    text-decoration: none;
+}
+.button:hover {
+    background: #1d49aa;
+  }
+  
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+.fab::after {
+    content: "";
+    background: rgb(136, 166, 223);
+    width: 1px;
+    height: 20px;
+    float: right;
+    margin-left: 20px;
+}
+.txt-between {
+    overflow: hidden;
+    padding-top: 30px;
+}
+.txt-between::before,
+.txt-between::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 25%;
+    height: 3px;
+    background:rgb(158, 147, 147);
+    border: solid rgb(28 25 25 / 70%);
+    border-width: 0 5px;
+}
+.txt-between::before {
+    margin-left: -50%;
+}
+.txt-between::after {
+    margin-right: -50%;
+}
