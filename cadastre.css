@@ -50,7 +50,7 @@ color: white;
 padding: 0px 10px;
 }
 /*CONTENT*/
-.form {
+.heading {
     width: 500px;
     height: 600px;
     position: absolute;
@@ -64,7 +64,7 @@ padding: 0px 10px;
     color: white;
     text-align: center;
 }
-.form h1 {
+.heading h1 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -123,4 +123,29 @@ padding: 0px 10px;
 }
 .txt-between::after {
     margin-right: -50%;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form input{
+    display: block;
+    margin-top: 20px;
+    padding: 8px;
+    width: 256px;
+    background-color: rgb(31, 30, 30);
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 9px 1px rgb(22, 76, 177);
+
+}
+.form input:hover {
+background-color: rgb(22, 76, 177);
+}
+.form span {
+    display: inline;
+}
+.checkbox, .account_button, footer {
+    margin-top: 20px;
 }
