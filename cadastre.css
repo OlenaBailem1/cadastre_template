@@ -4,6 +4,8 @@
 }
 body {
     background-image: url(cadaste_img/background.jpg);
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 /*HEADER*/
 .header {
@@ -143,9 +145,22 @@ padding: 0px 10px;
 .form input:hover {
 background-color: rgb(22, 76, 177);
 }
-.form span {
-    display: inline;
-}
+
 .checkbox, .account_button, footer {
     margin-top: 20px;
+}
+.checkbox span {
+    padding: 0px 5px;
+}
+.account_button input {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+footer p {
+    color: darkgray;
 }
